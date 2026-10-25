@@ -1,0 +1,21 @@
+[project]
+name = "bestandskontroll"
+version = "0.1.0"
+description = "Kontroller på bestandsdata – demo-repo for KI-assistert utvikling styrt fra Linear"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["bestandskontroll", "bestandskontroll.kontroller"]

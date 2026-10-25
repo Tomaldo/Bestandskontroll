@@ -1,0 +1,78 @@
+{
+  "beskrivelse": "Fasit for data/bestand_syntetisk.csv: polisene hver kontroll skal slå ut på. Beregnet av referansereglene i tools/generer_bestand.py, uavhengig av kontrollene i pakken. Fasiten er kontrakten og endres aldri for å få tester grønne.",
+  "generert_av": "tools/generer_bestand.py",
+  "seed": 2026,
+  "antall_rader": 604,
+  "plantede_feil": {
+    "negativ premiereserve": 7,
+    "ugyldig fodselsdato": 5,
+    "manglende felt": 6,
+    "startdato foer fylte 18": 4,
+    "ytelse utenfor intervall": 5,
+    "sluttdato foer startdato": 5,
+    "opphort med reserve": 6,
+    "duplikat polisenr": 4
+  },
+  "forventet": {
+    "DuplikatPoliseNr": [
+      "P-100309",
+      "P-100376",
+      "P-100438",
+      "P-100508"
+    ],
+    "UgyldigFodselsdato": [
+      "P-100074",
+      "P-100094",
+      "P-100214",
+      "P-100259",
+      "P-100351"
+    ],
+    "ManglendeFelt": [
+      "P-100136",
+      "P-100277",
+      "P-100472",
+      "P-100516",
+      "P-100519",
+      "P-100540"
+    ],
+    "NegativPremiereserve": [
+      "P-100180",
+      "P-100196",
+      "P-100405",
+      "P-100421",
+      "P-100476",
+      "P-100501",
+      "P-100570"
+    ],
+    "SluttdatoFoerStartdato": [
+      "P-100073",
+      "P-100263",
+      "P-100444",
+      "P-100446",
+      "P-100532"
+    ],
+    "OpphortMedReserve": [
+      "P-100010",
+      "P-100110",
+      "P-100202",
+      "P-100278",
+      "P-100323",
+      "P-100558"
+    ],
+    "StartdatoFoerFylte18": [
+      "P-100042",
+      "P-100094",
+      "P-100207",
+      "P-100259",
+      "P-100408",
+      "P-100463"
+    ],
+    "YtelseUtenforIntervall": [
+      "P-100043",
+      "P-100141",
+      "P-100353",
+      "P-100379",
+      "P-100542"
+    ]
+  }
+}
